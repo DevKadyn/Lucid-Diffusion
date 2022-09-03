@@ -1,5 +1,6 @@
 # Lucid-Diffusion
-
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=DevKadyn.Lucid-Diffusion) ![Stars](https://img.shields.io/github/stars/devkadyn/lucid-diffusion) [![Maintenance](https://img.shields.io/badge/status-Unmaintained-red.svg)](https://github.com/DevKadyn/Lucid-Diffusion) [![Issues](https://img.shields.io/github/issues/devkadyn/lucid-diffusion)](https://github.com/DevKadyn/Lucid-Diffusion/issues) <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/DevKadyn/Lucid-Diffusion/total">
+<img alt="GitHub" src="https://img.shields.io/github/license/DevKadyn/Lucid-Diffusion">
 ## About
 Lucid Diffusion was originally a personal notebook offshoot of Disco Diffusion V5.6 to practice python, but having added some interesting features, I thought it best to release it to the public. This fork restructures the Google Colab notebook and the python code in a way that is a bit more organized for the end user:
 * init_images includes new features and is now found in the ideation section.
@@ -8,6 +9,14 @@ Lucid Diffusion was originally a personal notebook offshoot of Disco Diffusion V
 
 
 ## Change Log
+Release 1.2.1 - Sep 3rd, 2022 (Last Release)
+
+- Added in some more helpful documentation within the notebook.
+- Change some of the default settings to get new users started.
+- New way to authenicate with HuggingFace. Type your token into the string and it will auto authenicate each time instead of needing to retype it in.
+- Updated the license and credits section.
+- More code clean up and fixes.
+
 Release 1.2.0 - Aug 30th, 2022
 
 - Added in Google Colab weight sliders from -20 to 20 so you don't need to edit the code to change the weights.
